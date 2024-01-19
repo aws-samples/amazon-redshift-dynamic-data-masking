@@ -1,5 +1,8 @@
 # Amazon Redshift - Dynamic Data Masking
 
+> [!NOTE]
+> This sample preceded Redshift's native support for dynamic data masking. Refer to [Dynamic data masking](https://aws.amazon.com/blogs/big-data/how-dynamic-data-masking-support-in-amazon-redshift-helps-achieve-data-privacy-and-compliance/) documentation for more information.
+
 ## Overview
 Increasingly organizations are using their data warehouse to store customer sensitive data (PII and PCI).  The challenge arises on how to store that data securely but expose that data in a way that is performant, cost optimized, and easy to manage in terms of masking rules and access controls.  Dynamic data masking is a strategy that enables customers to specify how much sensitive data to reveal with minimal impact on the application layer. Using the following strategy, you can implement a dynamic data masking strategy within Amazon Redshift.
 
